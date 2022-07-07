@@ -1,4 +1,4 @@
-import 'package:bisapp/designs/design_constants.dart';
+import 'package:flueapp/designs/design_constants.dart';
 import 'package:flutter/material.dart';
 
 //icon

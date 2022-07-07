@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "579929160289",
+    "project_id": "fuel-app-ab60d",
+    "storage_bucket": "fuel-app-ab60d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579929160289:android:8e732e46e0a06667d04820",
+        "android_client_info": {
+          "package_name": "com.example.flueapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579929160289-ofd1qi2e9e50ruphm6qtpkbr1p9q1kuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEL6DFYva3duz-cS-b0YtMNsEOTkg9qRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579929160289-ofd1qi2e9e50ruphm6qtpkbr1p9q1kuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

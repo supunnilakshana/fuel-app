@@ -1,3 +1,4 @@
+import 'package:flueapp/designs/design_constants.dart';
 import 'package:flueapp/services/validation/validate_handeler.dart';
 import 'package:flutter/material.dart';
 
@@ -36,12 +37,12 @@ class Gtextformfiled extends StatelessWidget {
       decoration: InputDecoration(
         icon: Icon(icon),
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          borderSide: const BorderSide(color: Colors.blue, width: 1.2),
+          borderRadius: BorderRadius.circular(15.0),
+          borderSide: const BorderSide(color: kprimaryColor, width: 1.5),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          borderSide: const BorderSide(color: Colors.grey, width: 1.2),
+          borderRadius: BorderRadius.circular(15.0),
+          borderSide: const BorderSide(color: Colors.black, width: 1.5),
         ),
         hintText: hintText,
         labelText: label,
@@ -86,12 +87,12 @@ class _GpasswordformfiledState extends State<Gpasswordformfiled> {
       //initialValue: '',
       decoration: InputDecoration(
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          borderSide: const BorderSide(color: Colors.blue, width: 1.2),
+          borderRadius: BorderRadius.circular(15.0),
+          borderSide: const BorderSide(color: kprimaryColor, width: 1.5),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          borderSide: const BorderSide(color: Colors.grey, width: 1.2),
+          borderRadius: BorderRadius.circular(15.0),
+          borderSide: const BorderSide(color: Colors.black, width: 1.5),
         ),
         labelText: widget.hintText,
         // icon: Icon(widget.icon),
@@ -148,12 +149,12 @@ class Gnoiconformfiled extends StatelessWidget {
       validator: valid,
       decoration: InputDecoration(
         focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          borderSide: const BorderSide(color: Colors.blue, width: 1.2),
+          borderRadius: BorderRadius.circular(15.0),
+          borderSide: const BorderSide(color: kprimaryColor, width: 1.5),
         ),
         enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          borderSide: const BorderSide(color: Colors.grey, width: 1.2),
+          borderRadius: BorderRadius.circular(15.0),
+          borderSide: const BorderSide(color: Colors.black, width: 1.5),
         ),
         hintText: hintText,
         labelText: label,
