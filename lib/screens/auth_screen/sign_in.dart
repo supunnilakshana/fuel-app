@@ -1,4 +1,5 @@
 import 'package:flueapp/screens/Home/home_screen.dart';
+import 'package:flueapp/screens/Home/loadhome_data.dart';
 import 'package:flueapp/services/email/email_auth.dart';
 import 'package:flueapp/services/validation/validate_handeler.dart';
 import 'package:flutter/material.dart';
@@ -160,7 +161,7 @@ class _SignInState extends State<SignIn> {
                                       context,
                                       MaterialPageRoute(
                                         builder: (context) {
-                                          return const HomeScreen();
+                                          return const LoadHomeScreeen();
                                         },
                                       ),
                                     );

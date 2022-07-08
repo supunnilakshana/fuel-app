@@ -142,6 +142,7 @@ class Gnoiconformfiled extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       // initialValue: "sdsd",
+      keyboardType: textinput,
       onChanged: onchange,
       maxLines: maxlines,
       onSaved: save,

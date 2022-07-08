@@ -8,12 +8,12 @@ import '../../../designs/components/tots.dart';
 
 class MenuDrawer extends StatelessWidget {
   final String name;
-  const MenuDrawer({
+  MenuDrawer({
     Key? key,
     required this.name,
   }) : super(key: key);
 
-  // final user = FirebaseAuth.instance.currentUser;
+  final user = FirebaseAuth.instance.currentUser;
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -30,8 +30,8 @@ class MenuDrawer extends StatelessWidget {
                   //   fit: BoxFit.cover,
                   // ),
                   color: Color.fromARGB(255, 208, 81, 43)),
-              accountEmail: Text("user!.email.toString()"),
-              accountName: Text("name"),
+              accountEmail: Text(user!.email.toString()),
+              accountName: Text(name),
               currentAccountPicture: Image.asset("assets/icons/profile.png"),
             ),
             Card(

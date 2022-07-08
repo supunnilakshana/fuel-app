@@ -3,6 +3,8 @@ import 'package:flueapp/screens/Home/home_screen.dart';
 import 'package:flueapp/screens/auth_screen/sign_in.dart';
 import 'package:flutter/material.dart';
 
+import '../Home/loadhome_data.dart';
+
 class CheckSignIn extends StatelessWidget {
   const CheckSignIn({Key? key}) : super(key: key);
 
@@ -17,7 +19,7 @@ class CheckSignIn extends StatelessWidget {
             child: CircularProgressIndicator(),
           );
         } else if (snapshot.hasData) {
-          return const HomeScreen();
+          return const LoadHomeScreeen();
         } else if (snapshot.hasError) {
           return const Center(
             child: Text("Somthing wrong!!"),

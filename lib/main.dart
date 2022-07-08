@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flueapp/screens/Home/home_screen.dart';
+import 'package:flueapp/screens/auth_screen/check_signIn.dart';
 import 'package:flueapp/screens/auth_screen/sign_in.dart';
+import 'package:flueapp/screens/welcome_screen/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
           textTheme: GoogleFonts.robotoSerifTextTheme(
             Theme.of(context).textTheme,
           )),
-      home: SignIn(),
+      home: const WelcomeScreen(),
     );
   }
 }
